@@ -1,0 +1,10 @@
+use Test;
+use Life::Mathematics;
+
+plan 3;
+
+is-deeply add-up("hardwork"),  "98%",  'is hardwork ok';
+is-deeply add-up("knowledge"), "96%",  'is knowlegde ok';
+is-deeply add-up("attitude"),  "100%", 'is attitude ok';
+
+# vim: expandtab shiftwidth=4

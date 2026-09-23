@@ -1,0 +1,27 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provide Mathematics of Life logic",
+  "license": "Artistic-2.0",
+  "name": "Life::Mathematics",
+  "provides": {
+    "Life::Mathematics": "lib/Life/Mathematics.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+  ],
+  "source-url": "https://codeberg.org/lizmat/Life-Mathematics.git",
+  "tags": [
+    "FUN",
+    "LIFE"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
