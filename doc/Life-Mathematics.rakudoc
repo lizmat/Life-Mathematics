@@ -16,9 +16,21 @@ say add-up("attitude");   # 100%
 
 =head1 DESCRIPTION
 
-The Life::Mathematics distrubution provides a simple C<add-up> subroutine
+The Life::Mathematics distribution provides a simple C<add-up> subroutine
 that encapsulates the logic as described in:
 L<Mathematics of Life|https://kennysloop.substack.com/p/mathematics-of-life>
+
+=head1 CLI
+
+It also provides a command-line interface called "life-words" that performs
+the same logic on each word given.
+
+=begin output
+$ life-words hardwork knowledge attitude
+hardwork   98%
+knowledge  96%
+attitude  100%
+=end output
 
 =head1 AUTHOR
 

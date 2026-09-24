@@ -1,0 +1,7 @@
+use Life::Mathematics;
+
+unit sub MAIN(*@words);
+
+printf "%-{@words>>.chars.max}s %4s\n", $_, add-up($_) for @words
+
+# vim: expandtab shiftwidth=4
